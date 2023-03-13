@@ -12,7 +12,7 @@ Pomelo.EntityFrameworkCore.Mysql
 ```
 
 Apos criar na pasta Model a classe ModelUsuario que será a representação do banco, ou  seja o Modelo de Entidade.
-  Criamos  na pasta Context a Classe ApiDbContext que será arquivo de Contexto do banco.
+  Criamos  na pasta Context a Classe ApiDbContext que será arquivo o de Contexto do banco.
 Então, criamos a connectstring ou string de conexão, no arquivo appsetings.json com usuário, senha e nome do banco.
 Instalamos o EF Core globalmente para podermos criar as migrations com o comando abaixo:
 ```
